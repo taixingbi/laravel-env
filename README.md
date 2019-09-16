@@ -1,0 +1,42 @@
+
+lsof -n -i:80 | grep LISTEN
+sudo pkill nginx   
+
+#### brew
+brew install php
+brew install mysql
+brew services list
+
+
+#### valet 
+brew install composer
+
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
+composer global require laravel/valet
+
+valet install
+
+ping foobar.test
+
+valet install
+
+
+mysql -u root -p
+
+show databases;
+use DATBASE;
+describe TABLE;
+select * from TABLE;
+
+#### laravel
+composer global require laravel/installer
+
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
+
+source /Users/taixingbi/Desktop/hunter.sql;
+
+#### 
+curl -sS https://getcomposer.org/installer | php
