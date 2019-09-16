@@ -19,7 +19,8 @@ https://getcomposer.org/composer.phar
 
 
 #### run project
-php artisan migrate
+php artisan migrate 
+composer install 
 php -S localhost:8000 -t public/
 
 
