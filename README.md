@@ -31,7 +31,7 @@ ping foobar.test
 
 valet install
 
-
+#### mysql
 mysql -u root -p
 
 show databases;
