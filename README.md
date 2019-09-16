@@ -34,19 +34,24 @@ valet install
 #### mysql
 mysql -u root -p
 
-show databases;
-use DATBASE;
-describe TABLE;
-select * from TABLE;
+show databases;   
+use DATBASE;   
+describe TABLE;  
+select * from TABLE;   
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
+
+source /Users/taixingbi/Desktop/thriveedbdev;
+
 
 #### laravel
 composer global require laravel/installer
 
 
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
 
-source /Users/taixingbi/Desktop/hunter.sql;
 
 #### 
 curl -sS https://getcomposer.org/installer | php
