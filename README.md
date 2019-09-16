@@ -7,10 +7,6 @@ brew install php
 brew install mysql    
 brew services list      
 
-
-
-
-
 #### composer 
 brew install composer     
 
@@ -20,6 +16,11 @@ composer global require laravel/valet
 
 ##### download composer.phar
 https://getcomposer.org/composer.phar
+
+
+#### run project
+http://localhost:8000
+
 
 #### valet
 valet install
