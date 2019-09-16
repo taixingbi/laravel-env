@@ -8,13 +8,20 @@ brew install mysql
 brew services list
 
 
-#### valet 
+
+
+
+#### composer 
 brew install composer
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
 composer global require laravel/valet
 
+##### download composer.phar
+https://getcomposer.org/composer.phar
+
+#### valet
 valet install
 
 ping foobar.test
