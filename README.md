@@ -38,6 +38,15 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
 
+
+#### frontend
+cd thriveethemeupdate  
+cp .env.example .env    
+edit .env and change the values to your local dev    
+npm install   
+npm install --global pm2   
+npx pm2  
+
 source /home/vagrant/code/test/thriveedbdev.sql;  
 
 
