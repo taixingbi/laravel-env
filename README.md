@@ -36,7 +36,7 @@ mysql -u root -p
 
 show databases;   
 use DATBASE;   
-describe TABLE;  
+show tables;  
 select * from TABLE;   
 
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
