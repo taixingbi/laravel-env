@@ -35,7 +35,7 @@ valet install
 mysql -u root -p
 
 show databases;   
-use DATBASE;   
+use thriveedbdev;   
 show tables;  
 select * from TABLE;   
 
