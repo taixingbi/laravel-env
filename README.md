@@ -43,11 +43,11 @@ source /home/vagrant/code/test/thriveedbdev.sql;
 
 ##### vagrant
 
-vagrant reload --provision
+vagrant reload --provision    
 
 
-192.168.10.10   platform.thrivee.test
-192.168.10.10   api.thrivee.test
+192.168.10.10   platform.thrivee.test    
+192.168.10.10   api.thrivee.test    
 
 
 
