@@ -43,8 +43,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
 
-source /home/vagrant/code/test/thriveedbdev;  
-source /Users/taixingbi/Desktop/thriveedbdev;  
+source /home/vagrant/code/test/thriveedbdev.sql;  
 
 
 #### laravel
