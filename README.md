@@ -42,6 +42,7 @@ source /home/vagrant/code/test/thriveedbdev.sql;
 
 
 ##### vagrant
+cat \etc\hosts
 
 vagrant reload --provision    
 
