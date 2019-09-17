@@ -20,16 +20,11 @@ https://getcomposer.org/composer.phar
 
 #### run project
 composer install      
-php artisan migrate    
+php artisan migrate   
+
 php -S localhost:8000 -t public/       
 
 
-#### valet
-valet install
-
-ping foobar.test
-
-valet install
 
 #### mysql
 mysql -u root -p
@@ -46,12 +41,16 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
 source /home/vagrant/code/test/thriveedbdev.sql;  
 
 
-#### laravel
-composer global require laravel/installer
+##### vagrant
+
+vagrant reload --provision
+
+
+192.168.10.10   platform.thrivee.test
+192.168.10.10   api.thrivee.test
 
 
 
 
 
-#### 
-curl -sS https://getcomposer.org/installer | php
+
