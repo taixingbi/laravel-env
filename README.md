@@ -34,6 +34,9 @@ use thriveedbdev;
 show tables;  
 select * from TABLE;   
 
+source /home/vagrant/code/share/thriveedbdev.sql;  
+
+
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
@@ -46,9 +49,6 @@ edit .env and change the values to your local dev
 npm install   
 npm install --global pm2   
 npx pm2  
-
-source /home/vagrant/code/test/thriveedbdev.sql;  
-
 
 ##### vagrant
 cat \etc\hosts
