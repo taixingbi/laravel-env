@@ -41,7 +41,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
 
-INSERT INTO thriveedbdev.teleconference_transcribe_test ( 
+INSERT INTO thriveedbdev.teleconference_transcribe_test (       
   account_id,    
   session_id,    
   speaking_at,    
