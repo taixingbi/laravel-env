@@ -41,6 +41,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
 
+INSERT INTO Customers (id, account_id, session_id, slice_probabilities)
+VALUES ('2','337','2','0.595, 0.027');
 
 #### frontend
 cd thriveethemeupdate  
