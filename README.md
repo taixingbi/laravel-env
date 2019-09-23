@@ -57,6 +57,10 @@ VALUES(
   "test"   
   );   
 
+DELETE FROM teleconference_transcribe_test WHERE session_id=2;
+
+
+
 #### frontend
 cd thriveethemeupdate  
 cp .env.example .env    
