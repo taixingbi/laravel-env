@@ -41,22 +41,21 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'admin';
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';   
 
-INSERT INTO thriveedbdev.teleconference_transcribe_test (
-  account_id, 
-  session_id,
-  speaking_at,
-  transcription,
-  filename
+INSERT INTO thriveedbdev.teleconference_transcribe_test ( 
+  account_id,    
+  session_id,    
+  speaking_at,    
+  transcription,    
+  filename   
   )
   
-VALUES( 
-  337,  
-  2,
-  1559732043,
-  "test",
-  "test"
-
-  );
+VALUES(   
+  337,   
+  2,    
+  1559732043,   
+  "test",   
+  "test"   
+  );   
 
 #### frontend
 cd thriveethemeupdate  
