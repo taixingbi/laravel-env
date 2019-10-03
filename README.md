@@ -59,7 +59,7 @@ VALUES(
 
 DELETE FROM teleconference_transcribe_test WHERE session_id=2;
 
-
+UPDATE teleconference_transcribe_test SET account_id = 326;
 
 #### frontend
 cd thriveethemeupdate  
