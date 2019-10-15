@@ -22,7 +22,7 @@ https://getcomposer.org/composer.phar
 composer install      
 php artisan migrate   
 
-http://api.thrivee.test/api/v2/depression/test
+http://api.thrivee.test/api/v2/depression/test        
 php -S localhost:8000 -t public/       
 
 
